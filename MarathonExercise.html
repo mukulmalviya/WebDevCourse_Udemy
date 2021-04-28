@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="pink">
+    <h1>Race Registration!</h1>
+    <p><b>Welcome to your next Rat-race. hope u grind as much as u do for other races for worthless rewards.</b></p>
+    <div>
+        <form action="/dodoodo">
+            <div>
+                <label for="fname">FirstName</label>
+                <input type="text" name="fname" id="fname" required>
+                <label for="lname">LastName</label>
+                <input type="text" name="lname" id="lname" required>
+            </div>
+            <div>
+                <br>
+                Select a Race :
+                <div>
+                    <input type="radio" name="racetype" id="5k" value="5k" required>
+                    <label for="5k">Fun Run 5km</label>
+                </div>
+                <div>
+                    <input type="radio" name="racetype" id="half" value="half">
+                    <label for="half">Half Marathon</label>
+                </div>
+                <div>
+                    <input type="radio" name="racetype" id="full" value="full">
+                    <label for="full">Full Marathon</label>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="pswd">Password</label>
+                    <input type="password" name="pwd" id="pswd" minlength="5" maxlength="15" required>
+                </div>
+                <div>
+                    <label for="ageselect">Select age group :</label>
+                    <select name="age" id="ageselect" requiredsd>
+                        <option value="18">Under 18</option>
+                        <option value="30">19-30</option>
+                        <option value="45">31-45</option>
+                        <option value="60">46-60</option>
+                        <option value="old">60+</option>
+                    </select>
+                </div>
+            </div>
+            <button>Resgister</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

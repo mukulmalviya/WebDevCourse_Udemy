@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms Here</h1>
+
+    <form action="/tacobell">
+        <p>
+            <label for="username">Enter a Username</label>
+            <input id="username" type="text" placeholder="Username" name="user">
+        </p>
+        <p>
+            <label for="pswd">Enter the Password</label>
+            <input id="pswd" type="password" placeholder="abcd1234" name="pwd">
+        </p>
+        <p>
+            <label for="no">Enter random number</label>
+            <input id="no" type="number" placeholder="99" name="num">
+        </p>
+        <p>
+            <label for="Uploadfile">Upload a file</label>
+            <input id="Uploadfile" type="file" placeholder="us.txt" name="file">
+        </p>
+        <button type="button">subscribe</button>
+        <button>submit</button>
+        <input type="submit">
+
+    </form>
+    <hr>
+    <button>Something</button>
+    <div>
+        <form action="https://www.reddit.com/search">
+            <p>
+                <label for="reddit">Reddit Search</label>
+                <input id="reddit" type="text" placeholder="reddit search" name="q">
+                <button type="submit">Reddit search</button>
+            </p>
+        </form>
+    </div>
+    <div>
+        <form action="https://www.youtube.com/results">
+            <p>
+                <label for="YouTube">YouTube Search</label>
+                <input id="YouTube" type="text" placeholder="YouTube search" name="search_query">
+                <button type="submit">YouTube search</button>
+            </p>
+        </form>
+    </div>
+    <div>
+        <h2>Some Agreement</h2>
+        <form action="/dingding">
+            <p>
+                <input id="agree" type="checkbox" name="agree_tos">
+                <label for="agree">I agree to trade my soul.</label>
+            <p>
+                <label for="xs">XS</label>
+                <input type="radio" name="size" id="xs" value="xtrasmol">
+                <label for="s">S</label>
+                <input type="radio" name="size" id="s" value="justsmol">
+                <label for="m">M</label>
+                <input type="radio" name="size" id="m" value="bigsmol">
+            </p>
+            <p>
+                <label for="eat">What would you like?</label>
+                <select name="meal" id="eat">
+                    <option value="def">---Something tasty---</option>
+                    <option value="dal">Dal-Chawal</option>
+                    <option value="bir">Biryani</option>
+                    <option value="piz">Pizza</option>
+                    <option value="chm">Chimmi-chungas</option>
+                </select>
+            </p>
+            <button type="submit">I agree!!</button>
+            </p>
+            <p>
+                <label for="che">cheese level</label>
+                <input type="range" name="cheeselvl" id="che" min="0" max="100" value="6">
+            </p>
+            <p>
+                <label for="txt">Any spl requests?</label>
+                <textarea name="text" id="txt" cols="40" rows="10" placeholder="Your wish is my command">
+                </textarea>
+            </p>
+        </form>
+        <form action="/dong">
+            <h2>Validation demo</h2>
+            <p>
+                <label for="name">Fullname</label>
+                <input type="text" name="name" id="name" required>
+            </p>
+            <p>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <input type="url"></input>
+            </p>
+            <p>
+                <button>Submit</button>
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
