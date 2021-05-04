@@ -1,9 +1,9 @@
 h1{
     color: rgb(5, 13, 36);
-    background-color: rgb(184, 184, 99);
+    background-color: #D1823D;
     text-align: center;
     font-weight: 100;
-    text-decoration: blue underline;
+    text-decoration: dotted orange underline;
     letter-spacing: 10px;
 }
 h2{
