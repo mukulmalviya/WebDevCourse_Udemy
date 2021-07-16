@@ -1,5 +1,29 @@
 {
   "dependencies": {
+    "ejs": "^3.1.6",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.13.2",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "webdevcourse_udemy",
+  "version": "1.0.0",
+  "main": "nodeTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukulmalviya/WebDevCourse_Udemy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukulmalviya/WebDevCourse_Udemy/issues"
+  },
+  "homepage": "https://github.com/mukulmalviya/WebDevCourse_Udemy#readme",
+  "description": ""
 }
